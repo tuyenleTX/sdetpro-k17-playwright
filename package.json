@@ -4,6 +4,6 @@
     "test": "playwright test"
   },
   "dependencies": {
-    "@playwright/test" : "1.57.0-next"
+    "@playwright/test": "^1.45.0"
   }
 }
