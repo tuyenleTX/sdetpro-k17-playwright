@@ -1,0 +1,9 @@
+{
+  "name": "sdetpro-k17-playwright",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "@playwright/test" : "1.57.0-next"
+  }
+}
