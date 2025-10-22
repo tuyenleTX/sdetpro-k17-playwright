@@ -37,3 +37,8 @@ Step 11:
   -- note: under setting if choose "show browser", 
 - or run by commandline: ex: "yarn test"
 
+Locating elements: 
+Locate by: 
+1. role, label, placeholder, text, alt text, title
+2. test id
+3. CSS or XPath
