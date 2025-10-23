@@ -14,7 +14,10 @@ export default defineConfig({
 
     ],
     use: {
-        baseURL: 'https://playwright.dev/',
-        headless: false
-    }
+        baseURL: 'https://the-internet.herokuapp.com/login',
+        headless: false,
+        //Implicit wait | Global wait
+        actionTimeout: 5 * 1000
+    },
+    timeout: 60 * 1000
 });
