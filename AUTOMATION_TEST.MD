@@ -42,3 +42,10 @@ Locate by:
 1. role, label, placeholder, text, alt text, title
 2. test id
 3. CSS or XPath
+
+
+//
+CSS 
+$$('iframe^="mce"') : -- start with
+$$('iframe$="ifr"') : -- end with
+$$('iframe*="ifr"') : --contain
