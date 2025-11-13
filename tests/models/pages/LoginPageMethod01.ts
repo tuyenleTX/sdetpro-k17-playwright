@@ -10,7 +10,7 @@ export default class LoginPageMethod01 {
         this.page = page;
     }
 
-    public async fillLoginForm(loginCred: { username: string, password: string }): Promise<Void> {
+    public async fillLoginForm(loginCred: { username: string, password: string }): Promise<void> {
         await this.inputUsername(loginCred.username);
         await this.inputPassword(loginCred.password);
         await this.clickOnLoginBtn();
