@@ -14,7 +14,8 @@ export default defineConfig({
 
     ],
     use: {
-        baseURL: 'https://the-internet.herokuapp.com/login',
+        baseURL: 'https://demowebshop.tricentis.com/',
+        //baseURL: 'https://the-internet.herokuapp.com/',
         headless: false,
         //Implicit wait | Global wait
         actionTimeout: 5 * 1000
