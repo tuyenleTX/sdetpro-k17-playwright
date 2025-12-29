@@ -47,11 +47,10 @@ test('Test POM - List of Components', async ({ page }) => {
     const homepage = new Homepage(page);
     const pageBodyComponent = homepage.pageBodyComponent();
     const productItemComponentList = await pageBodyComponent.productItemComponentList();
-    for(const productComponent of productItemComponentList) {
+    for (const productComponent of productItemComponentList) {
         const productName = await productComponent.getName();
         const productPrice = await productComponent.getPrice();
         console.log(`name: ${productName}`);
         console.log(`price: ${productPrice}`);
     }
-
 })
